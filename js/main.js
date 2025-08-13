@@ -252,7 +252,6 @@ function initLogoSwap() {
         const scroll = document.documentElement.scrollTop || document.body.scrollTop;
         const width  = window.innerWidth;
         const logo = document.getElementById('navbar-logo');
-        console.log(scroll)
         if (!logo) return;
 
  
@@ -269,10 +268,6 @@ function initLogoSwap() {
             logo.src = logoImages.large.src;
             }
         }
-
-
-
- 
         
     }
 

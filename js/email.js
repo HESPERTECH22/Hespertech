@@ -117,7 +117,7 @@ function createClientEmailTemplate(name, subject, body, email) {
                                                 <tr>
                                                     <td align="left" valign="middle">
                                                         <a href="https://hespertech.in/" style="color:#0a66c2;display:inline-block;text-decoration:none;width:120px" target="_blank">
-                                                            <img alt="HesperTech" src="https://rimanoble04.github.io/Hespertech/img/logo/hespertech-logo-min.png" style="outline:none;text-decoration:none;height:80px;width:auto">
+                                                            <img alt="Hesper Tech Pvt Ltd" src="https://rimanoble04.github.io/Hespertech/img/logo/hespertech-logo-min.png" style="outline:none;text-decoration:none;height:80px;width:auto">
                                                         </a>
                                                     </td>
                                                     <td valign="middle" align="right">
@@ -296,7 +296,7 @@ function createInboxEmailTemplate(name, subject, body, email) {
                                                         <a href="https://hespertech.in/"
                                                             style="color:#0a66c2;display:inline-block;text-decoration:none;width:120px"
                                                             target="_blank">
-                                                            <img alt="HesperTech"
+                                                            <img alt="Hesper Tech Pvt Ltd"
                                                                 src="https://rimanoble04.github.io/Hespertech/img/logo/hespertech-logo-min.png"
                                                                 style="outline:none;text-decoration:none;height:80px;width:auto">
                                                         </a>

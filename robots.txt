@@ -9,14 +9,14 @@ Allow: /services.html
 Allow: /careers.html
 Allow: /vendor-registration.html
 Allow: /website-developed-by.html
-Allow: /auto_braking.html
-Allow: /point_indicator.html
-Allow: /thompson.html
-Allow: /ton_hoist.html
-Allow: /trolley.html
-Allow: /wheelchair.html
-Allow: /xray.html
-
+Allow: /automated-braking-system-patent.html
+Allow: /railway-point-indicator.html
+Allow: /thompsons-tyre-machines-partnership.html
+Allow: /custom-1-ton-construction-hoist.html
+Allow: /vibrationless-patient-trolley.html
+Allow: /wheelchair-cum-stretcher.html
+Allow: /xray-shield-prototype.html
+Allow: /amul-scooping-kiosk.html
 
 # Disallow all internal components and dev assets
 Disallow: /html/
