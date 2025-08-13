@@ -1,0 +1,35 @@
+User-agent: *
+
+# Allow important HTML pages in root
+Allow: /index.html
+Allow: /about-us.html
+Allow: /contact-us.html
+Allow: /portfolio.html
+Allow: /services.html
+Allow: /careers.html
+Allow: /vendor-registration.html
+Allow: /website-developed-by.html
+Allow: /auto_braking.html
+Allow: /point_indicator.html
+Allow: /thompson.html
+Allow: /ton_hoist.html
+Allow: /trolley.html
+Allow: /wheelchair.html
+Allow: /xray.html
+
+
+# Disallow all internal components and dev assets
+Disallow: /html/
+Disallow: /js/
+Disallow: /helper/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /img/
+Disallow: /starter.html
+Disallow: /README.md
+Disallow: /abc.js
+Disallow: /READ-ME.txt
+Disallow: /LICENSE.txt
+
+# Sitemap 
+Sitemap: https://hespertech.in/sitemap.xml

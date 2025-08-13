@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact US - Hesper Tech Pvt. Ltd.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description"
+        content="Get in touch with Hesper Tech for engineering services, product development, and construction collaborations. We're ready to bring your ideas to life.">
+    <meta name="keywords"
+        content="contact Hesper Tech, engineering inquiries, prototype development contact, construction project contact, product design inquiry, email Hesper Tech, connect with engineers">
+    <meta name="author" content="HesperTech Pvt Ltd">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/tab/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/tab/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/tab/favicon-32x32.png">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="img/tab/apple-touch-icon.png">
+
+    <!-- Android Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="img/tab/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="img/tab/android-chrome-512x512.png">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="img/tab/site.webmanifest">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <div id="nav">
+                <nav class="navbar navbar-expand-lg navbar-dark px-3 py-3 py-lg-0 align-items-center">
+                    <a href="index.html" class="navbar-brand p-0 m-0">
+                        <div class="d-flex align-items-center nav-logo">
+                            <img id="navbar-logo" src="img/logo/logo_3.30.png" alt="Hespertech" style="margin:10px;" height="70px" width="auto">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" name="nav-toggler">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0 align-items-center">
+                
+                            <a href="index.html" class="nav-item nav-link" id="index">Home</a>
+                
+                            <a href="about-us.html" class="nav-item nav-link" id="about">About</a>
+                
+                            <a href="portfolio.html" class="nav-item nav-link" id="portfolio">Portfolio</a>
+                
+                
+                            <a href="services.html" class="nav-item nav-link" id="service">Services</a>
+                
+                            <!-- <a href="contact.html#ct-form" class="nav-item nav-link" id="contact">Contact Us</a> -->
+                
+                            <a href="careers.html" class="nav-item nav-link" id="job">Careers</a>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="about-us.html#team" class="dropdown-item">Team Members</a>
+                                    <a href="vendor-registration.html" class="dropdown-item">Vendor Registration</a>
+                                </div>
+                            </div>
+                
+                
+                            <a href="contact-us.html" class="btn btn-primary py-2 px-3 ms-3">Contact Us</a>
+                        </div>
+                    </div>
+                
+                </nav>
+        </div>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 40px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn" >Contact Us</h1>
+                    <!-- <a href="" class="h5 text-white">Home</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">Contact</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" >
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control border-0 bg-transparent p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Full Screen Search End -->
+    <div class="d-flex justify-content-center mb-4">
+        <a href="vendor-registration.html" class="btn btn-outline-primary px-4">
+            <i class="fa fa-arrow-left me-2"></i>Vendor Registration
+        </a>
+    </div>
+
+    <!-- Contact Start -->
+    <div class="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s" id="ct-form">
+        <div class="container py-3">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+                <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
+            </div>
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded p-4">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4" style="overflow: hidden;">
+                            <h5 class="mb-2 text-truncate">Call to ask any question</h5>
+                            <h5 class="text-primary mb-0 text-truncate"><a href="tel:+918281877470" class="text-primary">+91 82818 77470</a></h5>
+                            <h5 class="text-primary mb-0 text-truncate"><a href="tel:+917907047736" class="text-primary">+91 79070 47736</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded p-4">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
+                        <div class="ps-4" style="overflow: hidden;">
+                            <h5 class="mb-2 text-truncate">Email to get free quote</h5>
+                            <h5 class="text-primary mb-0 text-truncate">
+                                <a href="mailto:hespertechpvtltd@gmail.com" class="text-primary"></a>
+                                    hespertechpvtltd@gmail.com
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded p-4">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ps-4" style="overflow: hidden;">
+                            <h5 class="mb-2 text-truncate">Visit our office</h5>
+                            <h5 class="text-primary mb-0 text-truncate"><a href="https://maps.app.goo.gl/zuTMHQVF9Jtjtut49" class="text-primary" target="_blank">Thiruvananthapuram </a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <form id="client-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input name="name" type="text" required class="form-control border-0 bg-light px-4" placeholder="Your Name"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="email" type="email" required class="form-control border-0 bg-light px-4"
+                                    placeholder="Your Email" style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <input name="subject" type="text" required class="form-control border-0 bg-light px-4" placeholder="Subject"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="body" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"
+                                    style="height: 100%; min-height: 150px; resize: vertical;" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                      
+                </div>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.3566102779423!2d76.94073200000001!3d8.504845199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbea98f774c5%3A0x47e6534742443e3b!2sGovernment%20Engineering%20College%20Barton%20Hill%20Thiruvananthapuram!5e1!3m2!1sen!2sin!4v1742212229480!5m2!1sen!2sin"
+                        frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+    
+
+    <!-- Footer Start -->
+    <div id="footer">
+            <div class="container-fluid bg-dark text-light mt-0 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-lg-5 col-md-6 footer-about ">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                                <a class="" href="index.html">
+                                    <div class="logo_crop m-4"><img src="img\project\cropped_footer.png" alt="HesperTech" width="350">
+                                    </div>
+                                </a>
+                                <p class="mt-2 mb-4">At Hesper Tech Pvt. Ltd., we turn ideas into real, workable solutions.
+                                    Whether
+                                    it’s
+                                    designing a new product from scratch, developing functional prototypes, reverse
+                                    engineering, or
+                                    handling specialized construction needs, we bring together hands-on experience and
+                                    smart design
+                                    thinking. With a strong in-house R&amp;D team, we focus on creating practical,
+                                    cost-effective
+                                    innovations that actually work on the ground.
+                                    We’re not just about building products, we’re about building solutions that make a
+                                    difference.
+                                </p>
+            
+                                <form action="">
+                                    <div class="input-group">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <div class="row gx-5">
+                                <div class="col-lg-5 col-md-12 pt-5 mb-5 me-5">
+                                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                        <h3 class="text-light mb-0">Get In Touch</h3>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="bi bi-geo-alt text-primary me-2 "></i>
+                                        <p class="mb-0"><a class="text-white" href="https://maps.app.goo.gl/zuTMHQVF9Jtjtut49">Thiruvananthapuram,
+                                                Kerala</a></p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="bi bi-envelope-open text-primary me-2"></i>
+                                        <p class="mb-0"><a class="text-white" href="mailto:hespertechpvtltd@gmail.com">hespertechpvtltd@gmail.com</a></p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="bi bi-telephone text-primary  me-2"></i>
+                                        <p class="mb-0"><a class="text-white" href="tel:+918281877470">+91 82818 77470</a>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="bi bi-telephone text-primary  me-2"></i>
+                                        <p class="mb-0"><a class="text-white" href="tel:+917907047736">+91 79070 47736</a>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="fas fa-university text-primary  me-2"></i>
+                                        <p class="mb-0"><a class="text-white" href="cin">CIN:U72900KL2022PTC076964</a></p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <i class="fas fa-award text-primary  me-2"></i>
+                                        <p class="mb-0"><a class="text-white" href="dipp">DIPP109220</a></p>
+                                    </div>
+            
+                                    <div class="d-flex mt-4">
+                                        <!-- <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-instagram fw-normal"></i></a> -->
+                                        <a class="btn btn-primary btn-square  d-flex align-items-center justify-content-center p-2 w-100" style="max-width: 200px;" href="https://www.linkedin.com/company/hesper-tech/">
+                                            <i class="fab fa-linkedin-in fw-normal me-2"></i>
+                                            Join us on LinkedIn
+                                        </a>
+            
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-12 pt-0 pt-lg-5 mb-5 ms-md-5x">
+                                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                        <h3 class="text-light mb-0">Quick Links</h3>
+                                    </div>
+                                    <div class="link-animated d-flex flex-column justify-content-start">
+                                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                        <a class="text-light mb-2" href="about-us.html"><i class="bi bi-arrow-right text-primary me-2"></i>About
+                                            Us</a>
+                                        <a class="text-light mb-2" href="services.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our
+                                            Services</a>
+                                        <a class="text-light mb-2" href="portfolio.html"><i class="bi bi-arrow-right text-primary me-2"></i>
+                                            Portfolio</a>
+                                        <a class="text-light mb-2" href="careers.html"><i class="bi bi-arrow-right text-primary me-2"></i>
+                                            Careers</a>
+                                        <a class="text-light mb-2" href="contact-us.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact
+                                            Us</a>
+                                        <a class="text-light" href="website-developed-by.html"><i class="bi bi-arrow-right text-primary me-2"></i>Developed By</a>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-white" style="background: #061429;">
+                <div class="container text-center">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                                <p class="mb-0">
+                                    © <a class="text-white border-bottom" href="#">Hesper Tech Pvt Ltd</a> All Rights Reserved 2025.
+                                </p>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- loader gif -->
+    <div class="send-div">
+        <img class="loader-img" src="img/gifs/mailing_no.gif" style="height: auto; width: 300px" />
+        <div class="loader-text">
+            <p class="line-1 d-inline-block">
+                Sending your mail...
+                Please wait.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>

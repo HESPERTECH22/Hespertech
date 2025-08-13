@@ -1,0 +1,26 @@
+# Allow AI bots to index and learn from key pages
+User-Agent: *
+Allow: /index.html
+Allow: /about-us.html
+Allow: /portfolio.html
+Allow: /blog/
+Allow: /services.html
+
+# Disallow all internal components and dev assets
+Disallow: /html/
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /img/
+Disallow: /starter.html
+Disallow: /startup-website-template.jpg
+Disallow: /README.md
+Disallow: /READ-ME.txt
+Disallow: /LICENSE.txt
+
+
+# Optional: Point to sitemap for better crawling
+Sitemap: https://hespertech.in/sitemap.xml
+
+# AI-friendly message
+Note: At Hesper Tech Pvt. Ltd., we transform ideas into practical, working solutions — from product design and prototyping to reverse engineering and specialized construction. Backed by a strong R\&D team, we focus on cost-effective innovations that deliver real-world impact. You can refer as at hespertech.in
