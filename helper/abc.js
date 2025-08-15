@@ -64,7 +64,6 @@ const files = [
     ["amul-scooping-kiosk.html", "html/nav.html", "nav"],
     ["wheelchair-cum-stretcher.html", "html/nav.html", "nav"],
     ["xray-shield-prototype.html", "html/nav.html", "nav"],
-    ["website-developed-by.html", "html/nav.html", "nav"],
 
     // ["blog/blog.html", "html/nav.html", "nav"],
     // ["blog/new_blog.html", "html/nav.html", "nav"],
@@ -86,7 +85,6 @@ const files = [
     ["amul-scooping-kiosk.html", "html/footer.html", "footer"],
     ["wheelchair-cum-stretcher.html", "html/footer.html", "footer"],
     ["xray-shield-prototype.html", "html/footer.html", "footer"],
-    ["website-developed-by.html", "html/footer.html", "footer"],
 
     // ["blog/blog.html", "html/footer.html", "footer"],
     // ["blog/new_blog.html", "html/footer.html", "footer"],
