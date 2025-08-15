@@ -8,7 +8,6 @@ Allow: /portfolio.html
 Allow: /services.html
 Allow: /careers.html
 Allow: /vendor-registration.html
-Allow: /website-developed-by.html
 Allow: /automated-braking-system-patent.html
 Allow: /railway-point-indicator.html
 Allow: /thompsons-tyre-machines-partnership.html
@@ -17,6 +16,12 @@ Allow: /vibrationless-patient-trolley.html
 Allow: /wheelchair-cum-stretcher.html
 Allow: /xray-shield-prototype.html
 Allow: /amul-scooping-kiosk.html
+Allow: /img/tab/favicon.ico
+Allow: /img/tab/favicon-16x16.png
+Allow: /img/tab/favicon-32x32.png
+Allow: /img/tab/android-chrome-192x192.png
+Allow: /img/tab/android-chrome-512x512.png
+Allow: /img/tab/apple-touch-icon.png
 
 # Disallow all internal components and dev assets
 Disallow: /html/
